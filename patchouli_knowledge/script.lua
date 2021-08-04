@@ -27,10 +27,9 @@ model.all.RightLeg.setPos(vec)
 model.all.LeftLeg.setPos(vec)
 
 --blinking animation
---sitting animation
---sine and cosine wave animation
 blinkTimer = 0
 endValue = math.random(5,80)
+prevRad = 0
 radx = 0
 function tick()
 	if (model.all.Head.blink.getEnabled() == true) then
@@ -46,13 +45,25 @@ function tick()
 		model.all.Head.blink.setEnabled(true)
 	end
 	
+	prevRad = radx
+	radx = radx + 1
+end
+
+--sitting animation
+--sine and cosine wave animation
+function render(delta)
 	if (player.getVehicle() ~= nil) then
 		model.all.Body.sittingRotationSkirt.setRot({25, 0, 0})
 	else
 		model.all.Body.sittingRotationSkirt.setRot({0, 0, 0})
 	end
 	
-	radx = radx + 1
-	model.all.sinFloat.setPos({0,18.5 + math.sin(radx/10),0})
-	model.all.cosFloat.setPos({0,18.5 + math.cos(radx/10),0})
+	value = lerp(prevRad, radx, delta)
+	model.all.sinFloat.setPos({0,18.5 + math.sin(value/10),0})
+	model.all.cosFloat.setPos({0,18.5 + math.cos(value/10),0})
+end
+
+--mathematic functions
+function lerp(a,b,x)
+    return a+(b-a)*x
 end

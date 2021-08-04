@@ -32,7 +32,6 @@ model.all.RightLeg.setPos(vec)
 model.all.LeftLeg.setPos(vec)
 
 --blinking animation
---sitting animation
 blinkTimer = 0
 endValue = math.random(5,80)
 function tick()
@@ -48,10 +47,20 @@ function tick()
 		
 		model.all.Head.blink.setEnabled(true)
 	end
-	
+end
+
+--sitting animation
+--hide the chestPlate bones when offhand item exists
+function render()
 	if (player.getVehicle() ~= nil) then
 		model.all.Body.sittingRotationSkirt.setRot({25, 0, 0})
 	else
 		model.all.Body.sittingRotationSkirt.setRot({0, 0, 0})
+	end
+	
+	if (player.getHeldItem(2) ~= nil) then
+		model.all.LeftArm.chestPlate.setEnabled(false)
+	else
+		model.all.LeftArm.chestPlate.setEnabled(true)
 	end
 end
