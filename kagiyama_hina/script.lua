@@ -18,8 +18,6 @@ for key, value in pairs(model.all.all2) do
 	end
 end
 
-model.all.chestPlate.setPos(vec)
-
 vec = {0,-5.5,0}
 model.all.all2.Head.setPos(vec)
 model.all.all2.Body.setPos(vec)
@@ -34,6 +32,8 @@ endValue = math.random(5,80)
 spinSpeed = 0
 rot = 0
 prevRot = 0
+prevRad = 0
+radx = 0
 function tick()
 	if (model.all.all2.Head.blink.getEnabled() == true) then
 		model.all.all2.Head.blink.setEnabled(false)
@@ -52,10 +52,14 @@ function tick()
 		prevRot = rot
 		rot = model.all.all2.getRot().y + spinSpeed
 	end
+	
+	prevRad = radx
+	radx = radx + 1
 end
 
 --sitting animation
 --spinning animation
+--sine wave animation
 function render(delta)
 	if (player.getVehicle() ~= nil) then
 		model.all.all2.Body.sittingRotationSkirt.setRot({25, 0, 0})
@@ -71,6 +75,9 @@ function render(delta)
 		prevRot = 0
 		model.all.all2.setRot({0,0,0})
 	end
+	
+	value = lerp(prevRad, radx, delta)
+	model.all.sinFloat.setPos({0,18.5 + math.sin(value/10),0})
 end
 
 --mathematic functions
