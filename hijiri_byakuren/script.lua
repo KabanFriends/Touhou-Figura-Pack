@@ -50,7 +50,7 @@ function tick()
 end
 
 --sitting animation
---sine and cosine wave animation
+--sine wave animation
 function render(delta)
 	if (player.getVehicle() ~= nil) then
 		model.all.Body.sittingRotationSkirt.setRot({25, 0, 0})
