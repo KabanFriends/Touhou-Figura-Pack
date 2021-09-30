@@ -31,6 +31,8 @@ model.all.LeftLeg.setPos(vec)
 --blinking animation
 blinkTimer = 0
 endValue = math.random(5,80)
+prevRad = 0
+radx = 0
 function tick()
 	if (model.all.Head.blink.getEnabled() == true) then
 		model.all.Head.blink.setEnabled(false)
@@ -44,6 +46,23 @@ function tick()
 		
 		model.all.Head.blink.setEnabled(true)
 	end
+	
+	prevRad = radx
+	radx = radx + 1
+end
+
+--sine and cosine wave animation
+function render(delta)
+	value = lerp(prevRad, radx, delta)
+	model.all.sinFloat.setPos({0,18.5 + math.sin(value/10),0})
+	model.all._sinFloat.setPos({0,18.5 + math.sin((value+(math.pi*10))/10),0})
+	model.all.cosFloat.setPos({0,18.5 + math.cos(value/10),0})
+	model.all._cosFloat.setPos({0,18.5 + math.cos((value+(math.pi*10))/10),0})
+end
+
+--mathematic functions
+function lerp(a,b,x)
+    return a+(b-a)*x
 end
 
 --register action pings
