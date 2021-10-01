@@ -10,5 +10,4 @@ Original models are made by [Touhou Little Maid](https://www.curseforge.com/mine
 # What's included in the pack?
 Touhou Figura Pack includes all character models from Touhou Little Maid mod, and a few bonus models, such as prop models from the original mod and the separated accessory parts like hats.
 
-121 character models
-12 bonus models
+121 character models and 12 bonus models
