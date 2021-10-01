@@ -1,5 +1,5 @@
 <p align="center">
-    <src="https://media.discordapp.net/attachments/893478728401838101/893478773889040434/tfp_thumbnail.jpg" alt="title">
+    <img width="1280" src="https://media.discordapp.net/attachments/893478728401838101/893478773889040434/tfp_thumbnail.jpg" alt="title">
 </p>
 <hr>
 # Touhou-Figura-Pack
