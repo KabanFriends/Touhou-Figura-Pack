@@ -49,11 +49,19 @@ function tick()
 	end
 end
 
---hide the fan when offhand item exists
+--hide the bucket thing when offhand item exists
 function render()
-	if (player.getHeldItem(2) ~= nil) then
-		model.all.LeftArm.chestPlate.setEnabled(false)
+	if (player.isLeftHanded() == true) then
+		if (player.getHeldItem(1) ~= nil) then
+			model.all.LeftArm.chestPlate.setEnabled(false)
+		else
+			model.all.LeftArm.chestPlate.setEnabled(true)
+		end
 	else
-		model.all.LeftArm.chestPlate.setEnabled(true)
+		if (player.getHeldItem(2) ~= nil) then
+			model.all.LeftArm.chestPlate.setEnabled(false)
+		else
+			model.all.LeftArm.chestPlate.setEnabled(true)
+		end
 	end
 end
