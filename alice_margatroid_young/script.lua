@@ -53,11 +53,21 @@ function render()
 		model.all.Body.sittingRotationSkirt.setRot({0, 0, 0})
 	end
 	
-	if (player.getHeldItem(2) ~= nil) then
-		model.all.LeftArm.chestPlateLeft.setEnabled(false)
-		model.all.LeftArm.setRot({0, 0, 0})
+	if (player.isLeftHanded() == true) then
+		if (player.getHeldItem(1) ~= nil) then
+			model.all.LeftArm.chestPlateLeft.setEnabled(false)
+			model.all.LeftArm.setRot({0, 0, 0})
+		else
+			model.all.LeftArm.chestPlateLeft.setEnabled(true)
+			model.all.LeftArm.setRot({0, 0, -13})
+		end
 	else
-		model.all.LeftArm.chestPlateLeft.setEnabled(true)
-		model.all.LeftArm.setRot({0, 0, -13})
+		if (player.getHeldItem(2) ~= nil) then
+			model.all.LeftArm.chestPlateLeft.setEnabled(false)
+			model.all.LeftArm.setRot({0, 0, 0})
+		else
+			model.all.LeftArm.chestPlateLeft.setEnabled(true)
+			model.all.LeftArm.setRot({0, 0, -13})
+		end
 	end
 end
