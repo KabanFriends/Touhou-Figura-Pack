@@ -11,7 +11,8 @@ model.all.LeftArm.setRot({0, 0, 0})
 
 model.all.Head.blink.setEnabled(false)
 
-model.all.RightArm.gohei.setEnabled(false)
+model.all.RightArm.goheiRight.setEnabled(false)
+model.all.LeftArm.goheiLeft.setEnabled(false)
 
 vec = {0,18.5,0}
 for key, value in pairs(model.all) do
@@ -56,21 +57,67 @@ function render()
 		model.all.Body.sittingRotationSkirt.setRot({0, 0, 0})
 	end
 	
-	if (forceGohei == true) then
-		held_item_model.RIGHT_HAND.setEnabled(false)
-		model.all.RightArm.gohei.setEnabled(true)
-	else
-		if (player.getHeldItem(1) ~= nil) then
-			if (player.getHeldItem(1).getType() == "minecraft:stick") then
+	if (player.isLeftHanded() == true) then
+		if (forceGohei == true) then
+			held_item_model.LEFT_HAND.setEnabled(false)
+			model.all.LeftArm.goheiLeft.setEnabled(true)
+		else
+			if (player.getHeldItem(1) ~= nil) then
+				if (player.getHeldItem(1).getType() == "minecraft:stick") then
+					held_item_model.LEFT_HAND.setEnabled(false)
+					model.all.LeftArm.goheiLeft.setEnabled(true)
+				else
+					held_item_model.LEFT_HAND.setEnabled(true)
+					model.all.LeftArm.goheiLeft.setEnabled(false)
+				end
+			else
+				held_item_model.LEFT_HAND.setEnabled(true)
+				model.all.LeftArm.goheiLeft.setEnabled(false)
+			end
+		end
+		
+		if (player.getHeldItem(2) ~= nil) then
+			if (player.getHeldItem(2).getType() == "minecraft:stick") then
 				held_item_model.RIGHT_HAND.setEnabled(false)
-				model.all.RightArm.gohei.setEnabled(true)
+				model.all.RightArm.goheiRight.setEnabled(true)
 			else
 				held_item_model.RIGHT_HAND.setEnabled(true)
-				model.all.RightArm.gohei.setEnabled(false)
+				model.all.RightArm.goheiRight.setEnabled(false)
 			end
 		else
 			held_item_model.RIGHT_HAND.setEnabled(true)
-			model.all.RightArm.gohei.setEnabled(false)
+			model.all.RightArm.goheiRight.setEnabled(false)
+		end
+	else
+		if (forceGohei == true) then
+			held_item_model.RIGHT_HAND.setEnabled(false)
+			model.all.RightArm.goheiRight.setEnabled(true)
+		else
+			if (player.getHeldItem(1) ~= nil) then
+				if (player.getHeldItem(1).getType() == "minecraft:stick") then
+					held_item_model.RIGHT_HAND.setEnabled(false)
+					model.all.RightArm.goheiRight.setEnabled(true)
+				else
+					held_item_model.RIGHT_HAND.setEnabled(true)
+					model.all.RightArm.goheiRight.setEnabled(false)
+				end
+			else
+				held_item_model.RIGHT_HAND.setEnabled(true)
+				model.all.RightArm.goheiRight.setEnabled(false)
+			end
+		end
+		
+		if (player.getHeldItem(2) ~= nil) then
+			if (player.getHeldItem(2).getType() == "minecraft:stick") then
+				held_item_model.LEFT_HAND.setEnabled(false)
+				model.all.LeftArm.goheiLeft.setEnabled(true)
+			else
+				held_item_model.LEFT_HAND.setEnabled(true)
+				model.all.LeftArm.goheiLeft.setEnabled(false)
+			end
+		else
+			held_item_model.LEFT_HAND.setEnabled(true)
+			model.all.LeftArm.goheiLeft.setEnabled(false)
 		end
 	end
 end
