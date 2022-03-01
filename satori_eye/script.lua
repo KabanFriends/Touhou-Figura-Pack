@@ -1,4 +1,6 @@
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setScale({1.2,1.2,1.2})
 model.all.setPos({0,-2,0})
 

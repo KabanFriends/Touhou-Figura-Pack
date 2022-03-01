@@ -4,6 +4,8 @@ for key, value in pairs(vanilla_model) do
 end
 
 --setup models
+renderer.setRenderPlayerHead(false)
+
 vec = {0,25,0}
 for key, value in pairs(model) do
 	value.setPos(vec)

@@ -4,6 +4,8 @@ for key, value in pairs(vanilla_model) do
 end
 
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setScale({1.3,1.3,1.3})
 
 model.all.Head.blink.setEnabled(false)

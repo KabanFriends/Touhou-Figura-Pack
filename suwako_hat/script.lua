@@ -1,4 +1,6 @@
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setScale({1.1,1.1,1.1})
 model.all.Head.blink.setEnabled(false)
 

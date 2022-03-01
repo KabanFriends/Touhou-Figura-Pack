@@ -1,4 +1,6 @@
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setPos({0,-2,0})
 
 vec = {0,18.5,0}

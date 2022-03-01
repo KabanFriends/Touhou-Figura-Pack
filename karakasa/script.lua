@@ -1,4 +1,6 @@
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setScale({1.3,1.3,1.3})
 
 vec = {0,18.5,0}

@@ -9,6 +9,8 @@ for key, value in pairs(elytra_model) do
 end
 
 --setup models
+renderer.setRenderPlayerHead(false)
+
 model.all.setScale({1.3,1.3,1.3})
 
 model.all.RightArm.setRot({0, 0, 0})
