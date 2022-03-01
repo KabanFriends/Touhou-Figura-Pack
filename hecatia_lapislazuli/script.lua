@@ -24,13 +24,13 @@ function other()
 		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
 	end
 	
-	model.all.sinFloat.moonSideRight.setEnabled(true)
-	model.all.sinFloat.earthSideRight.setEnabled(false)
-	model.all.sinFloat.otherSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.moonSideRight.setEnabled(true)
+	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.otherSideRight.setEnabled(false)
 	
-	model.all._sinFloat.earthSideLeft.setEnabled(true)
-	model.all._sinFloat.otherSideLeft.setEnabled(false)
-	model.all._sinFloat.moonSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(true)
+	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
 end
 
 function moon()
@@ -52,13 +52,13 @@ function moon()
 		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
 	end
 	
-	model.all.sinFloat.moonSideRight.setEnabled(false)
-	model.all.sinFloat.earthSideRight.setEnabled(false)
-	model.all.sinFloat.otherSideRight.setEnabled(true)
+	model.all.Head.mess.sideRight.moonSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.otherSideRight.setEnabled(true)
 	
-	model.all._sinFloat.earthSideLeft.setEnabled(true)
-	model.all._sinFloat.otherSideLeft.setEnabled(false)
-	model.all._sinFloat.moonSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(true)
+	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
 end
 
 function earth()
@@ -80,13 +80,13 @@ function earth()
 		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
 	end
 	
-	model.all.sinFloat.moonSideRight.setEnabled(true)
-	model.all.sinFloat.earthSideRight.setEnabled(false)
-	model.all.sinFloat.otherSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.moonSideRight.setEnabled(true)
+	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
+	model.all.Head.mess.sideRight.otherSideRight.setEnabled(false)
 	
-	model.all._sinFloat.earthSideLeft.setEnabled(false)
-	model.all._sinFloat.otherSideLeft.setEnabled(true)
-	model.all._sinFloat.moonSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(false)
+	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(true)
+	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
 end
 
 --setup models
@@ -117,8 +117,7 @@ model.all.LeftLeg.setPos(vec)
 --blinking animation
 blinkTimer = 0
 endValue = math.random(5,80)
-prevRad = 0
-radx = 0
+
 function tick()
 	if (model.all.Head.blink.getEnabled() == true) then
 		model.all.Head.blink.setEnabled(false)
@@ -132,21 +131,6 @@ function tick()
 		
 		model.all.Head.blink.setEnabled(true)
 	end
-	
-	prevRad = radx
-	radx = radx + 1
-end
-
---sine wave animation
-function render(delta)
-	value = lerp(prevRad, radx, delta)
-	model.all.sinFloat.setPos({0,18.5 + math.sin(value/10),0})
-	model.all._sinFloat.setPos({0,18.5 + math.sin((value+(math.pi*10))/10),0})
-end
-
---mathematic functions
-function lerp(a,b,x)
-    return a+(b-a)*x
 end
 
 --register action pings
