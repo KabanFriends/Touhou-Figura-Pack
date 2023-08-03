@@ -1,3 +1,9 @@
+.vscode/
+
 __RELEASES/
 MODELS.lnk
 TEXTURES.lnk
+
+install.bat
+.luarc.json
+avatars.code-workspace
