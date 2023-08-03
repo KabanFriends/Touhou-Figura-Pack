@@ -4,6 +4,6 @@ __RELEASES/
 MODELS.lnk
 TEXTURES.lnk
 
-install.bat
+*.bat
 .luarc.json
 avatars.code-workspace
