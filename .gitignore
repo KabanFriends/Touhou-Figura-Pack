@@ -7,3 +7,7 @@ TEXTURES.lnk
 *.bat
 .luarc.json
 avatars.code-workspace
+
+*/components/
+*/skull.bbmodel
+!.scripts/components/
