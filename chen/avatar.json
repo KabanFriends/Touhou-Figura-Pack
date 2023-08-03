@@ -1,0 +1,14 @@
+{
+    "name": "橙",
+    "description": "Chen",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F9543B",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

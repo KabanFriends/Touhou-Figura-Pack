@@ -1,0 +1,13 @@
+{
+    "name": "クラウンピース",
+    "description": "Clownpiece",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EA0000",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

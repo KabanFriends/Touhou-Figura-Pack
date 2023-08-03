@@ -1,0 +1,13 @@
+{
+    "name": "ドレミー・スイート",
+    "description": "Doremy Sweet",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F6154B",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

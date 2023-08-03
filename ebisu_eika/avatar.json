@@ -1,0 +1,13 @@
+{
+    "name": "戎 瓔花",
+    "description": "Ebisu Eika",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F3F3E5",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

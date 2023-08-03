@@ -1,0 +1,15 @@
+{
+    "name": "チルノ",
+    "description": "Cirno",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#9CDAFC",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}
