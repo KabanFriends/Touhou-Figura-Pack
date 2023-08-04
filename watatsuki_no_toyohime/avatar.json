@@ -1,0 +1,13 @@
+{
+    "name": "綿月 豊姫",
+    "description": "Watatsuki no Toyohime",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F6E9FA",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

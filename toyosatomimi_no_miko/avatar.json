@@ -1,0 +1,14 @@
+{
+    "name": "豊聡耳 神子",
+    "description": "Toyosatomimi no Miko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F1D60E",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

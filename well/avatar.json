@@ -1,0 +1,12 @@
+{
+    "name": "井戸",
+    "description": "Well",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#90A194",
+    "components": [
+        "setup_minimal"
+    ]
+}

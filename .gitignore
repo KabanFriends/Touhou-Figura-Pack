@@ -5,8 +5,8 @@ MODELS.lnk
 TEXTURES.lnk
 
 *.bat
+*.code-workspace
 .luarc.json
-avatars.code-workspace
 
 */components/
 */skull.bbmodel

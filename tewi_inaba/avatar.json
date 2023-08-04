@@ -1,0 +1,14 @@
+{
+    "name": "因幡 てゐ",
+    "description": "Inaba Tewi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFD2B8",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

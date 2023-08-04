@@ -1,0 +1,13 @@
+{
+    "name": "岡崎 夢美",
+    "description": "Okazaki Yumemi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#DF001D",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

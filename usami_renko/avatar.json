@@ -1,0 +1,13 @@
+{
+    "name": "宇佐見 蓮子",
+    "description": "Usami Renko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#996C61",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

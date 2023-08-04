@@ -1,0 +1,13 @@
+{
+    "name": "依神 女苑",
+    "description": "Yorigami Joon",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFB196",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

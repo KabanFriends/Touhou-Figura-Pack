@@ -1,0 +1,13 @@
+{
+    "name": "依神 紫苑",
+    "description": "Yorigami Shion",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#2273CD",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

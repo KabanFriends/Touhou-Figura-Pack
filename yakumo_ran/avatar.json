@@ -1,0 +1,14 @@
+{
+    "name": "八雲 藍",
+    "description": "Yakumo Ran",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFF69E",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

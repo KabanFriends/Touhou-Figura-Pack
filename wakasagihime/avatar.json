@@ -1,0 +1,13 @@
+{
+    "name": "わかさぎ姫",
+    "description": "Wakasagihime",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6BA361",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

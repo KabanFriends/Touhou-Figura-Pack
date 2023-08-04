@@ -1,47 +1,16 @@
---hide default player skin
-for key, value in pairs(vanilla_model) do
-	value.setEnabled(false)
-end
+--sine and cosine wave animation
+local prevRad = 0
+local radx = 0
+events.TICK:register(function ()
+	prevRad = radx
+	radx = radx + 1
+end)
 
---setup models
-renderer.setRenderPlayerHead(false)
-
-model.all.setScale({1.3,1.3,1.3})
-
-model.all.RightArm.setRot({0, 0, 0})
-model.all.LeftArm.setRot({0, 0, 0})
-
-model.all.Head.blink.setEnabled(false)
-
-vec = {0,18.5,0}
-for key, value in pairs(model.all) do
-	if (type(value) == "table") then
-		value.setPos(vec)
-	end
-end
-
-vec = {0,-5.5,0}
-model.all.Head.setPos(vec)
-model.all.Body.setPos(vec)
-model.all.RightArm.setPos(vec)
-model.all.LeftArm.setPos(vec)
-model.all.RightLeg.setPos(vec)
-model.all.LeftLeg.setPos(vec)
-
---blinking animation
-blinkTimer = 0
-endValue = math.random(5,80)
-function tick()
-	if (model.all.Head.blink.getEnabled() == true) then
-		model.all.Head.blink.setEnabled(false)
-	end
-	
-	blinkTimer = blinkTimer + 1
-	
-	if (blinkTimer >= endValue) then
-		blinkTimer = 0
-		endValue = math.random(5,80)
-		
-		model.all.Head.blink.setEnabled(true)
-	end
-end
+--sine and cosine wave animation
+events.RENDER:register(function (delta, context)
+	local value = math.lerp(prevRad, radx, delta)
+	models.player_model.all.chestPlate.musicalnote.sinFloat:setPos(0, math.sin(value/10), 0)
+    models.player_model.all.chestPlate.musicalnote.cosFloat:setPos(0, math.cos(value/10), 0)
+    models.player_model.all.chestPlate.musicalnote._sinFloat:setPos(0, -math.sin(value/10), 0)
+    models.player_model.all.chestPlate.musicalnote._sinFloat2:setPos(0, -math.sin(value/10), 0)
+end)
