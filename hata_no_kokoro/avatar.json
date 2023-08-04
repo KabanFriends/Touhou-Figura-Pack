@@ -1,0 +1,13 @@
+{
+    "name": "秦 こころ",
+    "description": "Hata no Kokoro",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FC82D9",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

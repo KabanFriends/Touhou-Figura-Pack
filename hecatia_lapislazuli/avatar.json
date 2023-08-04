@@ -1,0 +1,13 @@
+{
+    "name": "ヘカーティア・ラピスラズリ",
+    "description": "Hecatia Lapislazuli",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BA0E0E",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

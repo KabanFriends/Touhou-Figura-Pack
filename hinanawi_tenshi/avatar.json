@@ -1,0 +1,14 @@
+{
+    "name": "比那名居 天子",
+    "description": "Hinanawi Tenshi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFC7D4",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

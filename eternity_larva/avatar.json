@@ -1,0 +1,14 @@
+{
+    "name": "エタニティラルバ",
+    "description": "Eternity Larva",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#90DA61",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

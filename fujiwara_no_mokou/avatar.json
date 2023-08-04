@@ -1,0 +1,12 @@
+{
+    "name": "藤原 妹紅",
+    "description": "Fujiwara no Mokou",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#A00101",
+    "components": [
+        "setup_noblink"
+    ]
+}

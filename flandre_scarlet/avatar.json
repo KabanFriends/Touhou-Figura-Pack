@@ -1,0 +1,15 @@
+{
+    "name": "フランドール・スカーレット",
+    "description": "Flandre Scarlet",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FF0015",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}
