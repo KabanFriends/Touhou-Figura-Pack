@@ -7,7 +7,7 @@
     ],
     "color": "#67B0F6",
     "components": [
-        "setup",
+        "setup_noblink",
         "sitting"
     ]
 }
