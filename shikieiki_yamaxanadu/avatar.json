@@ -1,0 +1,14 @@
+{
+    "name": "四季映姫・ヤマザナドゥ",
+    "description": "Shiki Eiki, Yamazanadu",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F7A02A",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

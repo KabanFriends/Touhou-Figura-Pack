@@ -1,0 +1,15 @@
+{
+    "name": "霊烏路 空",
+    "description": "Reiuji Utsuho",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#8BC7A6",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}

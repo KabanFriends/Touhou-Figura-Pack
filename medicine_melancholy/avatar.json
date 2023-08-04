@@ -1,0 +1,14 @@
+{
+    "name": "メディスン・メランコリー",
+    "description": "Medicine Melancholy",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E5191F",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

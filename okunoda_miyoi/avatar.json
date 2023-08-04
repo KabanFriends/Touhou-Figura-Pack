@@ -1,0 +1,13 @@
+{
+    "name": "奥野田 美宵",
+    "description": "Okunoda Miyoi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F2938A",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

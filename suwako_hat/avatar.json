@@ -1,0 +1,12 @@
+{
+    "name": "洩矢 諏訪子 (帽子)",
+    "description": "Moriya Suwako (Hat)",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F4CF81",
+    "components":[
+        "blink"
+    ]
+}

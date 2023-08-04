@@ -1,0 +1,13 @@
+{
+    "name": "パチュリー・ノーレッジ",
+    "description": "Patchouli Knowledge",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BC91C6",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

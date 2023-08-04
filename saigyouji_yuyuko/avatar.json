@@ -1,0 +1,14 @@
+{
+    "name": "西行寺 幽々子",
+    "description": "Saigyouji Yuyuko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#C2CFDF",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

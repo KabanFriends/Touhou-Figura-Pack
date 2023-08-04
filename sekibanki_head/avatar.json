@@ -1,0 +1,12 @@
+{
+    "name": "赤蛮奇 (頭)",
+    "description": "Sekibanki's Head",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F43F41",
+    "components": [
+        "blink"
+    ]
+}

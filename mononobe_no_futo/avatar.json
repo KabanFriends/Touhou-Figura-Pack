@@ -1,0 +1,13 @@
+{
+    "name": "物部 布都",
+    "description": "Mononobe no Futo",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#A8A8A8",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

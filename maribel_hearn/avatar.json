@@ -1,0 +1,13 @@
+{
+    "name": "マエリベリー・ハーン",
+    "description": "Maribel Hearn",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6E65A4",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

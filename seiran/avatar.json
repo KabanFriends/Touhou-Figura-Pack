@@ -1,0 +1,13 @@
+{
+    "name": "清蘭",
+    "description": "Seiran",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#1874CA",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

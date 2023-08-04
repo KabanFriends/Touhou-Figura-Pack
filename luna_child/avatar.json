@@ -1,0 +1,14 @@
+{
+    "name": "ルナチャイルド",
+    "description": "Luna Child",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFFBD9",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

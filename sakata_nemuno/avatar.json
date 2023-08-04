@@ -1,0 +1,13 @@
+{
+    "name": "坂田 ネムノ",
+    "description": "Sakata Nemuno",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D6B102",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

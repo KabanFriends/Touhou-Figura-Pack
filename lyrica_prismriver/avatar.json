@@ -1,0 +1,14 @@
+{
+    "name": "リリカ・プリズムリバー",
+    "description": "Lyrica Prismriver",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D42D2D",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

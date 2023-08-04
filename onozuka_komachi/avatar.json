@@ -1,0 +1,14 @@
+{
+    "name": "小野塚 小町",
+    "description": "Onozuka Komachi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EA174D",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

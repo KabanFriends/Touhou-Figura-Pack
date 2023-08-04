@@ -1,0 +1,14 @@
+{
+    "name": "永江 衣玖",
+    "description": "Nagae Iku",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#8C3FFF",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

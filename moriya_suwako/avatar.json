@@ -1,0 +1,14 @@
+{
+    "name": "洩矢 諏訪子",
+    "description": "Moriya Suwako",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F4CF81",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

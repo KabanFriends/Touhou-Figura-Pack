@@ -1,0 +1,14 @@
+{
+    "name": "水橋 パルスィ",
+    "description": "Mizuhashi Parsee",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6053AD",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

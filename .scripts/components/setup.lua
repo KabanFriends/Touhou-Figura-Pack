@@ -4,8 +4,8 @@ vanilla_model.PLAYER:setVisible(false)
 --setup models
 models.player_model:scale(1.3, 1.3, 1.3)
 
-models.player_model.all.RightArm:setRot(0, 0, 0)
-models.player_model.all.LeftArm:setRot(0, 0, 0)
+models.player_model.all.RightArm:setRot(0, 0, 7)
+models.player_model.all.LeftArm:setRot(0, 0, -7)
 
 --setup skull
 local skullmodel = models.player_model.all.Head:copy("SkullModel")

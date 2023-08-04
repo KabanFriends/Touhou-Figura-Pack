@@ -1,0 +1,14 @@
+{
+    "name": "ルーミア",
+    "description": "Rumia",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFF36E",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

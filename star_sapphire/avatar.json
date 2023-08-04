@@ -1,0 +1,14 @@
+{
+    "name": "スターサファイア",
+    "description": "Star Sapphire",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#434DA4",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

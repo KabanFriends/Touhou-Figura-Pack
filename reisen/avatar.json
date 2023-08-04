@@ -1,0 +1,13 @@
+{
+    "name": "レイセン",
+    "description": "Reisen",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#B7B5FF",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

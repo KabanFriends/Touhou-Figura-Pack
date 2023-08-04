@@ -1,0 +1,14 @@
+{
+    "name": "鈴仙・優曇華院・イナバ",
+    "description": "Reisen Udongein Inaba",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BE90DD",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

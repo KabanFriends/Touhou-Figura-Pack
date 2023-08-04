@@ -1,0 +1,14 @@
+{
+    "name": "サニーミルク",
+    "description": "Sunny Milk",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E9B17A",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}
