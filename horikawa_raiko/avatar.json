@@ -1,0 +1,13 @@
+{
+    "name": "堀川 雷鼓",
+    "description": "Horikawa Raiko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BC0000",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

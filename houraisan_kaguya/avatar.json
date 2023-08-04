@@ -1,0 +1,14 @@
+{
+    "name": "蓬莱山 輝夜",
+    "description": "Houraisan Kaguya",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EEAAB4",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

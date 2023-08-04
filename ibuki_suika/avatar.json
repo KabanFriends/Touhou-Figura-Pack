@@ -1,0 +1,14 @@
+{
+    "name": "伊吹 萃香",
+    "description": "Ibuki Suika",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFAB3C",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

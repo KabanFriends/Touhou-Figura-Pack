@@ -1,0 +1,13 @@
+{
+    "name": "茨木 華扇",
+    "description": "Ibaraki Kasen",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EEAAB4",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

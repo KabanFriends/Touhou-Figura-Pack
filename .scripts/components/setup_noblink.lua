@@ -12,3 +12,9 @@ local part = models.player_model.all.Head:copy("SkullModel")
 part:setParentType("None")
 part:setPos(0, -18, 0)
 models.skull.Skull:addChild(part)
+
+--setup tablist portrait
+local portmodel = models.player_model.all.Head:copy("SkullModel")
+portmodel:setParentType("None")
+portmodel:setPos(0, -18, 0)
+models.skull.Portrait:addChild(portmodel)

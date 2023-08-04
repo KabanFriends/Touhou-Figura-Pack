@@ -1,0 +1,14 @@
+{
+    "name": "十六夜 咲夜",
+    "description": "Izayoi Sakuya",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#8A84D4",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}
