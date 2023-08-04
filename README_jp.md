@@ -18,7 +18,7 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 # 使用方法
 1. [Figura](https://modrinth.com/mod/figura)をMinecraftに導入する
 2. Touhou Figura Packの[最新バージョン](https://github.com/KabanFriends/Touhou-Figura-Pack/releases/latest)をダウンロードする
-3. ダウンロードした.zipファイルを `.minecraft/figura/avatars` に展開する
+3. ダウンロードした.zipファイルを `.minecraft/figura/avatars` にコピーする
 4. FiguraのWardrobeメニューでプレイヤーモデルを選ぶ
 
 # 帰属表示
