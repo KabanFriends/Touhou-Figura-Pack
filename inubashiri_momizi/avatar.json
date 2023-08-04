@@ -1,0 +1,14 @@
+{
+    "name": "犬走 椛",
+    "description": "Inubashiri Momiji",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F2F2F2",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

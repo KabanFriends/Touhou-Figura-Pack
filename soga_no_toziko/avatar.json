@@ -1,0 +1,13 @@
+{
+    "name": "蘇我 屠自古",
+    "description": "Soga no Tojiko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#CDD9B7",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

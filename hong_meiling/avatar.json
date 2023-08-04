@@ -1,0 +1,14 @@
+{
+    "name": "紅 美鈴",
+    "description": "Hong Meiling",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#ACC551",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

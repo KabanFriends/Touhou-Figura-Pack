@@ -1,0 +1,14 @@
+{
+    "name": "リグル・ナイトバグ",
+    "description": "Wriggle Nightbug",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#42837F",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

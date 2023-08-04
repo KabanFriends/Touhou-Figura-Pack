@@ -1,0 +1,15 @@
+{
+    "name": "ミスティア・ローレライ",
+    "description": "Mystia Lorelei",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#9F737E",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}

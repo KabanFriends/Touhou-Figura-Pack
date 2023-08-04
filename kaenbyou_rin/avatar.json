@@ -1,0 +1,14 @@
+{
+    "name": "火焔猫 燐",
+    "description": "Kaenbyou Rin",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#268961",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

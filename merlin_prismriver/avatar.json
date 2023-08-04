@@ -1,0 +1,14 @@
+{
+    "name": "メルラン・プリズムリバー",
+    "description": "Merlin Prismriver",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#C6C4F6",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

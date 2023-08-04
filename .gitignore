@@ -1,3 +1,13 @@
+.vscode/
+
 __RELEASES/
 MODELS.lnk
 TEXTURES.lnk
+
+*.bat
+*.code-workspace
+.luarc.json
+
+*/components/
+*/skull.bbmodel
+!.scripts/components/

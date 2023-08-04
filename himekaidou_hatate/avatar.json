@@ -1,0 +1,13 @@
+{
+    "name": "姫海棠 はたて",
+    "description": "Himekaidou Hatate",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#945977",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "賽銭箱",
+    "description": "Donation Box",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#DBA625",
+    "components": [
+        "setup_minimal"
+    ]
+}

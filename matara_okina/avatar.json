@@ -1,0 +1,13 @@
+{
+    "name": "摩多羅 隠岐奈",
+    "description": "Matara Okina",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F7C469",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

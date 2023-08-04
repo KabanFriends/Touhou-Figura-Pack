@@ -1,0 +1,13 @@
+{
+    "name": "九十九 八橋",
+    "description": "Tsukumo Yatsuhashi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#A35E4D",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

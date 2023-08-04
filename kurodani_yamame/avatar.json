@@ -1,0 +1,14 @@
+{
+    "name": "黒谷 ヤマメ",
+    "description": "Kurodani Yamame",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FAEA8A",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

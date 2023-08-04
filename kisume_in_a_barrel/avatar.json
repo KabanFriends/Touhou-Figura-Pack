@@ -1,0 +1,13 @@
+{
+    "name": "キスメ (樽入り)",
+    "description": "Kisume in a Barrel",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#59CB4F",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

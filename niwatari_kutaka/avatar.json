@@ -1,0 +1,14 @@
+{
+    "name": "庭渡 久侘歌",
+    "description": "Niwatari Kutaka",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EE8750",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

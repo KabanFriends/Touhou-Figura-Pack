@@ -1,0 +1,13 @@
+{
+    "name": "埴安神 袿姫",
+    "description": "Haniyasushin Keiki",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F4EE00",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

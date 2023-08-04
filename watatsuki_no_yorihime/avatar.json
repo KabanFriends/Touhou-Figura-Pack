@@ -1,0 +1,13 @@
+{
+    "name": "綿月 依姫",
+    "description": "Watatsuki no Yorihime",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BE91BF",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "リリーブラック",
+    "description": "Lily Black",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F6DC4C",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

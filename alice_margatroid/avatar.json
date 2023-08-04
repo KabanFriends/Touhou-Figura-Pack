@@ -1,0 +1,14 @@
+{
+    "name": "アリス・マーガトロイド",
+    "description": "Alice Margatroid",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#5E80A3",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

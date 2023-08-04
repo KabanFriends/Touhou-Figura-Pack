@@ -1,0 +1,13 @@
+{
+    "name": "稗田 阿求",
+    "description": "Hieda no Akyuu",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#809D45",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

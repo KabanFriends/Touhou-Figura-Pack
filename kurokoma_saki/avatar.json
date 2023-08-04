@@ -1,0 +1,14 @@
+{
+    "name": "驪駒 早鬼",
+    "description": "Kurokoma Saki",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BF3A07",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

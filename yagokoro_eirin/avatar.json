@@ -1,0 +1,14 @@
+{
+    "name": "八意 永琳",
+    "description": "Yagokoro Eirin",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EEEEEE",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

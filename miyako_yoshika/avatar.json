@@ -1,0 +1,13 @@
+{
+    "name": "宮古 芳香",
+    "description": "Miyako Yoshika",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6053AD",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

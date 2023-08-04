@@ -1,0 +1,13 @@
+{
+    "name": "杖刀偶 磨弓",
+    "description": "Joutouguu Mayumi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F2BD02",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

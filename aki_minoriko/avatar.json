@@ -1,0 +1,14 @@
+{
+    "name": "秋 穣子",
+    "description": "Aki Minoriko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E2532F",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

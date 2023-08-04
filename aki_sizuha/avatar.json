@@ -1,0 +1,14 @@
+{
+    "name": "秋 静葉",
+    "description": "Aki Shizuha",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E2532F",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

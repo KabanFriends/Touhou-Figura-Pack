@@ -1,0 +1,13 @@
+{
+    "name": "寅丸 星",
+    "description": "Toramaru Shou",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#DCA710",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

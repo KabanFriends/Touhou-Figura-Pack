@@ -1,0 +1,13 @@
+{
+    "name": "矢田寺 成美",
+    "description": "Yatadera Narumi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#C1C0C7",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

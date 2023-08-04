@@ -1,0 +1,15 @@
+{
+    "name": "射命丸 文",
+    "description": "Shameimaru Aya",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F7A02A",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "多々良 小傘",
+    "description": "Tatara Kogasa",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6EC8E6",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

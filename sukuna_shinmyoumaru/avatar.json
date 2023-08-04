@@ -1,0 +1,13 @@
+{
+    "name": "少名 針妙丸",
+    "description": "Sukuna Shinmyoumaru",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E5527C",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

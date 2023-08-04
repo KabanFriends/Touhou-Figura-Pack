@@ -1,0 +1,13 @@
+{
+    "name": "今泉 影狼",
+    "description": "Imaizumi Kagerou",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#6B3634",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

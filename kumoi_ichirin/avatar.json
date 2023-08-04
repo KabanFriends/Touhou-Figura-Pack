@@ -1,0 +1,14 @@
+{
+    "name": "雲居 一輪",
+    "description": "Kumoi Ichirin",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#3B55AB",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

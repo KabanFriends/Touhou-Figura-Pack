@@ -1,0 +1,14 @@
+{
+    "name": "古明地 こいし",
+    "description": "Komeiji Koishi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#CAECC1",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

@@ -1,147 +1,103 @@
---hide default player skin
-for key, value in pairs(vanilla_model) do
-	value.setEnabled(false)
-end
-
---model functions
-hasSekibanki = false
-function other()
+--action pings
+local mode
+local hasSekibanki = false
+function pings.other()
 	mode = "other"
 
-	model.all.Body.logo.logoEarth.setEnabled(false)
-	model.all.Body.logo.logoOther.setEnabled(true)
-	model.all.Body.logo.logoMoon.setEnabled(false)
+	models.player_model.all.Head.hair.earthHair:setVisible(false)
+	models.player_model.all.Head.hair.otherHair:setVisible(true)
+	models.player_model.all.Head.hair.moonHair:setVisible(false)
+
+	models.player_model.all.Body.logo.logoEarth:setVisible(false)
+	models.player_model.all.Body.logo.logoOther:setVisible(true)
+	models.player_model.all.Body.logo.logoMoon:setVisible(false)
 	
 	if (hasSekibanki == false) then
-		model.all.Head.mess.top.earthTop.setEnabled(false)
-		model.all.Head.mess.top.otherTop.setEnabled(true)
-		model.all.Head.mess.top.moonTop.setEnabled(false)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(false)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(false)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(true)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(false)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(false)
 	else
-		model.all.Head.mess.top.earthTop.setEnabled(false)
-		model.all.Head.mess.top.otherTop.setEnabled(false)
-		model.all.Head.mess.top.moonTop.setEnabled(false)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(false)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(false)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(false)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(true)
 	end
 	
-	model.all.Head.mess.sideRight.moonSideRight.setEnabled(true)
-	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
-	model.all.Head.mess.sideRight.otherSideRight.setEnabled(false)
+	models.player_model.all.Head.mess.sideRight.moonSideRight:setVisible(true)
+	models.player_model.all.Head.mess.sideRight.earthSideRight:setVisible(false)
+	models.player_model.all.Head.mess.sideRight.otherSideRight:setVisible(false)
 	
-	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(true)
-	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(false)
-	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
+	models.player_model.all.Head.mess.sideLeft.earthSideLeft:setVisible(true)
+	models.player_model.all.Head.mess.sideLeft.otherSideLeft:setVisible(false)
+	models.player_model.all.Head.mess.sideLeft.moonSideLeft:setVisible(false)
 end
 
-function moon()
+function pings.moon()
 	mode = "moon"
 
-	model.all.Body.logo.logoEarth.setEnabled(false)
-	model.all.Body.logo.logoOther.setEnabled(false)
-	model.all.Body.logo.logoMoon.setEnabled(true)
+	models.player_model.all.Head.hair.earthHair:setVisible(false)
+	models.player_model.all.Head.hair.otherHair:setVisible(false)
+	models.player_model.all.Head.hair.moonHair:setVisible(true)
+
+	models.player_model.all.Body.logo.logoEarth:setVisible(false)
+	models.player_model.all.Body.logo.logoOther:setVisible(false)
+	models.player_model.all.Body.logo.logoMoon:setVisible(true)
 	
 	if (hasSekibanki == false) then
-		model.all.Head.mess.top.earthTop.setEnabled(false)
-		model.all.Head.mess.top.otherTop.setEnabled(false)
-		model.all.Head.mess.top.moonTop.setEnabled(true)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(false)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(false)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(false)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(true)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(false)
 	else
-		model.all.Head.mess.top.earthTop.setEnabled(false)
-		model.all.Head.mess.top.otherTop.setEnabled(false)
-		model.all.Head.mess.top.moonTop.setEnabled(false)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(false)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(false)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(false)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(true)
 	end
 	
-	model.all.Head.mess.sideRight.moonSideRight.setEnabled(false)
-	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
-	model.all.Head.mess.sideRight.otherSideRight.setEnabled(true)
+	models.player_model.all.Head.mess.sideRight.moonSideRight:setVisible(false)
+	models.player_model.all.Head.mess.sideRight.earthSideRight:setVisible(false)
+	models.player_model.all.Head.mess.sideRight.otherSideRight:setVisible(true)
 	
-	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(true)
-	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(false)
-	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
+	models.player_model.all.Head.mess.sideLeft.earthSideLeft:setVisible(true)
+	models.player_model.all.Head.mess.sideLeft.otherSideLeft:setVisible(false)
+	models.player_model.all.Head.mess.sideLeft.moonSideLeft:setVisible(false)
 end
 
-function earth()
+function pings.earth()
 	mode = "earth"
 
-	model.all.Body.logo.logoEarth.setEnabled(true)
-	model.all.Body.logo.logoOther.setEnabled(false)
-	model.all.Body.logo.logoMoon.setEnabled(false)
+	models.player_model.all.Head.hair.earthHair:setVisible(true)
+	models.player_model.all.Head.hair.otherHair:setVisible(false)
+	models.player_model.all.Head.hair.moonHair:setVisible(false)
+
+	models.player_model.all.Body.logo.logoEarth:setVisible(true)
+	models.player_model.all.Body.logo.logoOther:setVisible(false)
+	models.player_model.all.Body.logo.logoMoon:setVisible(false)
 	
 	if (hasSekibanki == false) then
-		model.all.Head.mess.top.earthTop.setEnabled(true)
-		model.all.Head.mess.top.otherTop.setEnabled(false)
-		model.all.Head.mess.top.moonTop.setEnabled(false)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(false)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(true)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(false)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(false)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(false)
 	else
-		model.all.Head.mess.top.earthTop.setEnabled(false)
-		model.all.Head.mess.top.otherTop.setEnabled(false)
-		model.all.Head.mess.top.moonTop.setEnabled(false)
-		model.all.Head.mess.top.head_of_sekibanki.setEnabled(true)
+		models.player_model.all.Head.mess.top.earthTop:setVisible(false)
+		models.player_model.all.Head.mess.top.otherTop:setVisible(false)
+		models.player_model.all.Head.mess.top.moonTop:setVisible(false)
+		models.player_model.all.Head.mess.top.head_of_sekibanki:setVisible(true)
 	end
 	
-	model.all.Head.mess.sideRight.moonSideRight.setEnabled(true)
-	model.all.Head.mess.sideRight.earthSideRight.setEnabled(false)
-	model.all.Head.mess.sideRight.otherSideRight.setEnabled(false)
+	models.player_model.all.Head.mess.sideRight.moonSideRight:setVisible(true)
+	models.player_model.all.Head.mess.sideRight.earthSideRight:setVisible(false)
+	models.player_model.all.Head.mess.sideRight.otherSideRight:setVisible(false)
 	
-	model.all.Head.mess.sideLeft.earthSideLeft.setEnabled(false)
-	model.all.Head.mess.sideLeft.otherSideLeft.setEnabled(true)
-	model.all.Head.mess.sideLeft.moonSideLeft.setEnabled(false)
+	models.player_model.all.Head.mess.sideLeft.earthSideLeft:setVisible(false)
+	models.player_model.all.Head.mess.sideLeft.otherSideLeft:setVisible(true)
+	models.player_model.all.Head.mess.sideLeft.moonSideLeft:setVisible(false)
 end
 
---setup models
-renderer.setRenderPlayerHead(false)
-
-model.all.setScale({1.3,1.3,1.3})
-
-model.all.RightArm.setRot({0, 0, 0})
-model.all.LeftArm.setRot({0, 0, 0})
-
-model.all.Head.blink.setEnabled(false)
-
-other()
-
-vec = {0,18.5,0}
-for key, value in pairs(model.all) do
-	if (type(value) == "table") then
-		value.setPos(vec)
-	end
-end
-
-vec = {0,-5.5,0}
-model.all.Head.setPos(vec)
-model.all.Body.setPos(vec)
-model.all.RightArm.setPos(vec)
-model.all.LeftArm.setPos(vec)
-model.all.RightLeg.setPos(vec)
-model.all.LeftLeg.setPos(vec)
-
---blinking animation
-blinkTimer = 0
-endValue = math.random(5,80)
-
-function tick()
-	if (model.all.Head.blink.getEnabled() == true) then
-		model.all.Head.blink.setEnabled(false)
-	end
-	
-	blinkTimer = blinkTimer + 1
-	
-	if (blinkTimer >= endValue) then
-		blinkTimer = 0
-		endValue = math.random(5,80)
-		
-		model.all.Head.blink.setEnabled(true)
-	end
-end
-
---register action pings
-network.registerPing("other")
-network.registerPing("moon")
-network.registerPing("earth")
-network.registerPing("seki")
-
-function seki()
+function pings.seki()
 	if (hasSekibanki == true) then hasSekibanki = false
 	else hasSekibanki = true end
 	
@@ -149,28 +105,41 @@ function seki()
 end
 
 function updateMode()
-	if (mode == "other") then other() end
-	if (mode == "moon") then moon() end
-	if (mode == "earth") then earth() end
+	if (mode == "other") then pings.other() end
+	if (mode == "moon") then pings.moon() end
+	if (mode == "earth") then pings.earth() end
 end
 
+pings.other()
+
 --action wheel
-item = item_stack.createItem("minecraft:redstone_block")
-action_wheel.SLOT_1.setItem(item)
-action_wheel.SLOT_1.setTitle("Otherworlds")
-action_wheel.SLOT_1.setFunction(function() network.ping("other") end)
+local wheel = action_wheel:newPage()
+action_wheel:setPage(wheel)
 
-item = item_stack.createItem("minecraft:end_stone")
-action_wheel.SLOT_2.setItem(item)
-action_wheel.SLOT_2.setTitle("Moon")
-action_wheel.SLOT_2.setFunction(function() network.ping("moon") end)
+local otheraction = wheel:newAction()
+otheraction:setItem("minecraft:redstone_block")
+otheraction:setTitle("Otherworlds")
+otheraction:onLeftClick(function (self)
+	pings.other()
+end)
 
-item = item_stack.createItem("minecraft:grass_block")
-action_wheel.SLOT_3.setItem(item)
-action_wheel.SLOT_3.setTitle("Earth")
-action_wheel.SLOT_3.setFunction(function() network.ping("earth") end)
+local moonaction = wheel:newAction()
+moonaction:setItem("minecraft:end_stone")
+moonaction:setTitle("Moon")
+moonaction:onLeftClick(function (self)
+	pings.moon()
+end)
 
-item = item_stack.createItem("minecraft:obsidian")
-action_wheel.SLOT_4.setItem(item)
-action_wheel.SLOT_4.setTitle("Toggle Sekibanki")
-action_wheel.SLOT_4.setFunction(function() network.ping("seki") end)
+local earthaction = wheel:newAction()
+earthaction:setItem("minecraft:grass_block")
+earthaction:setTitle("Earth")
+earthaction:onLeftClick(function (self)
+	pings.earth()
+end)
+
+local sekiaction = wheel:newAction()
+sekiaction:setItem("minecraft:obsidian")
+sekiaction:setTitle("Toggle Sekibanki")
+sekiaction:onToggle(function (self)
+	pings.seki()
+end)

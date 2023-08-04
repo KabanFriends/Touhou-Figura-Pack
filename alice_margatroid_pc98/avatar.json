@@ -1,0 +1,14 @@
+{
+    "name": "アリス・マーガトロイド (旧作)",
+    "description": "Alice Margatroid (PC-98)",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#8CA2FC",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

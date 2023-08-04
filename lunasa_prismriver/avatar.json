@@ -1,0 +1,14 @@
+{
+    "name": "ルナサ・プリズムリバー",
+    "description": "Lunasa Prismriver",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#343434",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

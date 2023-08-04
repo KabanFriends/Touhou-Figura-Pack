@@ -1,0 +1,13 @@
+{
+    "name": "吉弔 八千慧",
+    "description": "Kicchou Yachie",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F8F095",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

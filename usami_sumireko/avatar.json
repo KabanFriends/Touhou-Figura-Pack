@@ -1,0 +1,13 @@
+{
+    "name": "宇佐見 菫子",
+    "description": "Usami Sumireko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#806EB6",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

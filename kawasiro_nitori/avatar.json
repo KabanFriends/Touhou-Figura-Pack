@@ -1,0 +1,13 @@
+{
+    "name": "河城 にとり",
+    "description": "Kawashiro Nitori",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#67B0F6",
+    "components": [
+        "setup_noblink",
+        "sitting"
+    ]
+}

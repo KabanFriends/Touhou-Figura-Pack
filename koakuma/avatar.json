@@ -1,0 +1,15 @@
+{
+    "name": "小悪魔",
+    "description": "Koakuma",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D1615B",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}

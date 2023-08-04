@@ -1,0 +1,14 @@
+{
+    "name": "朱鷺子",
+    "description": "Tokiko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#B1BEDF",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

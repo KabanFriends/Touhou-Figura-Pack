@@ -1,0 +1,13 @@
+{
+    "name": "純狐",
+    "description": "Junko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FCC858",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "牛崎 潤美",
+    "description": "Ushizaki Urumi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FBDC49",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "大妖精",
+    "description": "Daiyousei",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#64C2F5",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

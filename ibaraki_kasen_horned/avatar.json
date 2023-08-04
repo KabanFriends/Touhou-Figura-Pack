@@ -1,0 +1,13 @@
+{
+    "name": "影華扇",
+    "description": "Ibaraki Kasen (True Form)",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EEAAB4",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

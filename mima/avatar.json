@@ -1,0 +1,14 @@
+{
+    "name": "魅魔",
+    "description": "Mima",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#4A508A",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

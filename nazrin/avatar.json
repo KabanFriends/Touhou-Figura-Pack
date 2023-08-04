@@ -1,0 +1,14 @@
+{
+    "name": "ナズーリン",
+    "description": "Nazrin",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#BCAEB8",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "丁礼田 舞",
+    "description": "Teireida Mai",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#03A87D",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

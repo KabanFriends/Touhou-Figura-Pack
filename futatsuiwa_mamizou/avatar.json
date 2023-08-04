@@ -1,0 +1,13 @@
+{
+    "name": "二ッ岩 マミゾウ",
+    "description": "Futatsuiwa Mamizou",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#AA8461",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "爾子田 里乃",
+    "description": "Nishida Satono",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D3028D",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

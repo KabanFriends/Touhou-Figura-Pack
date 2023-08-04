@@ -1,0 +1,13 @@
+{
+    "name": "八雲 紫",
+    "description": "Yakumo Yukari",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FD8300",
+    "components": [
+        "setup_noblink",
+        "sitting"
+    ]
+}

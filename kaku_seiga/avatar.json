@@ -1,0 +1,13 @@
+{
+    "name": "霍 青娥",
+    "description": "Kaku Seiga",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#A5DAD2",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

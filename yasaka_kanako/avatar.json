@@ -1,0 +1,14 @@
+{
+    "name": "八坂 神奈子",
+    "description": "Yasaka Kanako",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#E2544D",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "封獣 ぬえ",
+    "description": "Houjuu Nue",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#474747",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

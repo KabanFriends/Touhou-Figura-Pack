@@ -1,0 +1,13 @@
+{
+    "name": "本居 小鈴",
+    "description": "Motoori Kosuzu",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F2DC77",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "博麗 霊夢 (青)",
+    "description": "Hakurei Reimu (Blue)",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#4882B8",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

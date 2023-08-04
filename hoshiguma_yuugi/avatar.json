@@ -1,0 +1,14 @@
+{
+    "name": "星熊 勇儀",
+    "description": "Hoshiguma Yuugi",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D5B565",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

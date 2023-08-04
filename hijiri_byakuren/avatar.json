@@ -1,0 +1,14 @@
+{
+    "name": "聖 白蓮",
+    "description": "Hijiri Byakuren",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#CE8FDC",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

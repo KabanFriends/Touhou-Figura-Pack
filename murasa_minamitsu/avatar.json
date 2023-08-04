@@ -1,0 +1,13 @@
+{
+    "name": "村紗 水蜜",
+    "description": "Murasa Minamitsu",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#EAF1F2",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

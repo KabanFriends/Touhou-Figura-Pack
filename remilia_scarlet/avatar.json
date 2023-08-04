@@ -1,0 +1,15 @@
+{
+    "name": "レミリア・スカーレット",
+    "description": "Remilia Scarlet",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F4BFCF",
+    "components": [
+        "setup",
+        "blink",
+        "sitting",
+        "hide_elytra"
+    ]
+}
