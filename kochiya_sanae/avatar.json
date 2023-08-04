@@ -1,0 +1,14 @@
+{
+    "name": "東風谷 早苗",
+    "description": "Kochiya Sanae",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#1CE959",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

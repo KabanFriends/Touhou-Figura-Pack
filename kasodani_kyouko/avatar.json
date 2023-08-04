@@ -1,0 +1,13 @@
+{
+    "name": "幽谷 響子",
+    "description": "Kasodani Kyouko",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#AA6666",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

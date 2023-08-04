@@ -1,0 +1,14 @@
+{
+    "name": "霧雨 魔理沙",
+    "description": "Kirisame Marisa",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FF1414",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

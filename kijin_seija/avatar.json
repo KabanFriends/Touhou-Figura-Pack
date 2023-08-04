@@ -1,0 +1,13 @@
+{
+    "name": "鬼人 正邪",
+    "description": "Kijin Seija",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FF1414",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "キスメ",
+    "description": "Kisume",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#59CB4F",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

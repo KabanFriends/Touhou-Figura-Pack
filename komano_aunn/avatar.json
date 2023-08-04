@@ -1,0 +1,13 @@
+{
+    "name": "高麗野 あうん",
+    "description": "Komano Aunn",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#91BCAA",
+    "components": [
+        "setup",
+        "blink"
+    ]
+}

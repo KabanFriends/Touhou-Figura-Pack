@@ -1,0 +1,14 @@
+{
+    "name": "魂魄 妖夢",
+    "description": "Konpaku Youmu",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#018582",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

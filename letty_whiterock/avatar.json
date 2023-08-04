@@ -1,0 +1,14 @@
+{
+    "name": "レティ・ホワイトロック",
+    "description": "Letty Whiterock",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#F6F6F6",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

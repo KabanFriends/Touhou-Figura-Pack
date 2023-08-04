@@ -1,0 +1,14 @@
+{
+    "name": "風見 幽香",
+    "description": "Kazami Yuuka",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#D4526D",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

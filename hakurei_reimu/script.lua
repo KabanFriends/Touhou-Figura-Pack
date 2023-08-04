@@ -87,8 +87,8 @@ action_wheel:setPage(wheel)
 local action = wheel:newAction()
 action:setItem("minecraft:stick")
 action:setTitle("Toggle Gohei")
-action:onToggle(function()
-	if (forceGohei == false) then
+action:onToggle(function(state, self)
+	if (state == true) then
 		pings.enableGohei()
 	else
 		pings.disableGohei()

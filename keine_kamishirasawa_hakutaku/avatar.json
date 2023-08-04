@@ -1,0 +1,14 @@
+{
+    "name": "上白沢 慧音 (白沢)",
+    "description": "Kamishirasawa Keine (Hakutaku)",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#70AB7F",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

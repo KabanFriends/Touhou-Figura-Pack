@@ -1,0 +1,14 @@
+{
+    "name": "稀神 サグメ",
+    "description": "Kishin Sagume",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#C26CAA",
+    "components": [
+        "setup",
+        "blink",
+        "hide_elytra"
+    ]
+}

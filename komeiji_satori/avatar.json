@@ -1,0 +1,14 @@
+{
+    "name": "古明地 さとり",
+    "description": "Komeiji Satori",
+    "authors": [
+        "KabanFriends",
+        "TartaricAcid"
+    ],
+    "color": "#FFC6C3",
+    "components": [
+        "setup",
+        "blink",
+        "sitting"
+    ]
+}

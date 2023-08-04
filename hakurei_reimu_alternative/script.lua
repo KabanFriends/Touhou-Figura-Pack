@@ -72,11 +72,11 @@ events.RENDER:register(function (delta, context)
 end)
 
 --action pings
-function pings.enableGohei()
+function pings.enableGoheiBlue()
 	forceGohei = true 
 end
 
-function pings.disableGohei()
+function pings.disableGoheiBlue()
 	forceGohei = false
 end
 
@@ -87,10 +87,10 @@ action_wheel:setPage(wheel)
 local action = wheel:newAction()
 action:setItem("minecraft:stick")
 action:setTitle("Toggle Gohei")
-action:onToggle(function()
-	if (forceGohei == false) then
-		pings.enableGohei()
+action:onToggle(function(state, self)
+	if (state == true) then
+		pings.enableGoheiBlue()
 	else
-		pings.disableGohei()
+		pings.disableGoheiBlue()
 	end
 end)
