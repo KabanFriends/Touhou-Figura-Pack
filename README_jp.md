@@ -13,7 +13,7 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 - 東方Projectのキャラクターのプレイヤーモデル 121種類
 - 一部キャラクターの装飾品やその他のおまけモデル 12種類
 
-モデルによっては、アクションホイールを使って特別な機能が使えるものがあります。
+モデルによっては、Action Wheelを使って特別な機能が使えるものがあります。
 
 # 使用方法
 1. [Figura](https://modrinth.com/mod/figura)をMinecraftに導入する
