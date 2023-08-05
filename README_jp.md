@@ -28,7 +28,7 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 Releasesページからビルド済みのモデルパックをダウンロードせずに、このリポジトリーから直接プレイヤーモデルを使用する際は、以下の手順で全モデル共通のスクリプトをインストールする必要があります。
 
 1. Python 3.9 をインストールする (他のバージョンでは動作確認していません)
-2. カレントディレクトリを`.scripts`にした状態で`build.py`を実行する
+2. カレントディレクトリーを`.scripts`にした状態で`build.py`を実行する
 ```sh
 cd ./.scripts
 python ./build.py
