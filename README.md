@@ -20,6 +20,7 @@ Some player models contain special actions you can perform using Action Wheel.
 2. Download [the latest release](https://github.com/KabanFriends/Touhou-Figura-Pack/releases/latest) of this model pack
 3. Copy the zip file to your `.minecraft/figura/avatars` directory
 4. Select a model in the Figura's Wardrobe menu and enjoy
+- It is highly recommended to enable the **First Person Hands** option in the Figura's settings menu!
 
 # Attributions
 The character models and textures are originally made for [Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid) mod.

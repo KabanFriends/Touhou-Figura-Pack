@@ -20,6 +20,7 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 2. Touhou Figura Packの[最新バージョン](https://github.com/KabanFriends/Touhou-Figura-Pack/releases/latest)をダウンロードする
 3. ダウンロードした.zipファイルを `.minecraft/figura/avatars` にコピーする
 4. FiguraのWardrobeメニューでプレイヤーモデルを選ぶ
+- Figuraの設定画面(Settings)から、**First Person Hands**をONにすることを推奨します。
 
 # 帰属表示
 Touhou Figura Packで使用されるモデルやテクスチャーは、[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から引用されています。
