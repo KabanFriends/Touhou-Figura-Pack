@@ -5,7 +5,9 @@
 </p>
 
 # Touhou Figura Pack
-Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figura)」専用のプレイヤーモデルパックです。このモデルパックには、[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から引用した東方Projectのキャラクターのモデルと、おまけのモデルが収録されています。
+Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figura)」専用のプレイヤーモデルパックです。このモデルパックには、[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から移植した東方Projectのキャラクターのモデルと、その他のおまけモデルが収録されています。
+
+このモデルパックに含まれるモデル・テクスチャーは、Touhou Little Maidから**非公式**に移植されたものです。モデルパックの作者(KabanFriends)は、Touhou Little Maidやその作者であるTartaricAcid氏と関係がありません。
 
 # パック内のモデル
 このモデルパックには、[Figura](https://modrinth.com/mod/figura)に対応したプレイヤーモデルが合計133種類含まれています。
@@ -23,5 +25,5 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 - Figuraの設定画面(Settings)から、**First Person Hands**をONにすることを推奨します。
 
 # 帰属表示
-Touhou Figura Packで使用されるモデルやテクスチャーは、[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から引用されています。
-モデルやテクスチャーは、[CC BY NC SA 4.0](https://github.com/KabanFriends/Touhou-Figura-Pack/blob/master/LICENSE) ライセンスの規定に従って改変されています。
+Touhou Figura Packで使用されるモデルやテクスチャーは、TartaricAcid氏制作の[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から移植されています。
+モデルやテクスチャーは、[CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの許容範囲で改変されています。

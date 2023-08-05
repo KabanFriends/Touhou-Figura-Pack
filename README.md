@@ -7,6 +7,8 @@
 # Touhou Figura Pack
 This is a model pack for [Figura](https://modrinth.com/mod/figura) Minecraft mod. This pack contains player models of various Touhou Project characters, as well as a few bonus models, all ported from [Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid) mod.
 
+This pack is an UNOFFICIAL port of Touhou Little Maid mod! The creator of this pack, KabanFriends, is affiliated with neither the Touhou Little Maid mod, nor its creator TartaricAcid.
+
 # Included Models
 This model pack contains the total of 133 player models to be used with [Figura](https://modrinth.com/mod/figura) Minecraft mod:
 
@@ -23,5 +25,5 @@ Some player models contain special actions you can perform using Action Wheel.
 - It is highly recommended to enable the **First Person Hands** option in the Figura's settings menu!
 
 # Attributions
-The character models and textures are originally made for [Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid) mod.
-Assets from the mod are modified to be in this pack under [CC BY NC SA 4.0](https://github.com/KabanFriends/Touhou-Figura-Pack/blob/master/LICENSE) license.
+The character models and textures are originally made for [Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid) mod, created by TartaricAcid.
+Assets from the mod are modified to be in this pack under [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
