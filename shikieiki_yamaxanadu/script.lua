@@ -1,4 +1,4 @@
---hide the chestPlate bones when offhand item exists
+--hide the rod when offhand item exists
 events.RENDER:register(function (delta, context)
 	if (player:isLeftHanded() == true) then
 		if (player:getHeldItem(false).id ~= "minecraft:air") then
