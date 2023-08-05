@@ -25,7 +25,7 @@ Some player models contain special actions you can perform using Action Wheel.
 - It is highly recommended to enable the **First Person Hands** option in the Figura's settings menu!
 
 # "Building" from Source
-If you want to directly use the player models in this repository without downloading the pre-built pack from the Releases page, shared script files must be installed to each model in the pack, via the following steps:
+If you want to directly use the player models in this repository without downloading the pre-built pack from the Releases page, shared script files must be installed to each model in the pack via the following steps:
 
 1. Make sure Python 3.9 is installed (Other versions are not tested)
 2. Set the current directory to the `.scripts` directory and run `build.py`
