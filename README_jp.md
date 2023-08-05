@@ -24,6 +24,17 @@ Touhou Figura Packは、Minecraftのmod「[Figura](https://modrinth.com/mod/figu
 4. FiguraのWardrobeメニューでプレイヤーモデルを選ぶ
 - Figuraの設定画面(Settings)から、**First Person Hands**をONにすることを推奨します。
 
+# 手動で「ビルド」して使う方法
+Releasesページからビルド済みのモデルパックをダウンロードせずに、このリポジトリーから直接プレイヤーモデルを使用する際は、以下の手順で全モデル共通のスクリプトをインストールする必要があります。
+
+1. Python 3.9 をインストールする (他のバージョンでは動作確認していません)
+2. カレントディレクトリを`.scripts`にした状態で`build.py`を実行する
+```sh
+cd ./.scripts
+python ./build.py
+```
+3. 自動的に、各モデルに必要なスクリプトがインストールされます
+
 # 帰属表示
 Touhou Figura Packで使用されるモデルやテクスチャーは、TartaricAcid氏制作の[Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid)から移植されています。
 モデルやテクスチャーは、[CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)ライセンスの許容範囲で改変されています。
