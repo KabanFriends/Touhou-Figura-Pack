@@ -24,6 +24,17 @@ Some player models contain special actions you can perform using Action Wheel.
 4. Select a model in the Figura's Wardrobe menu and enjoy
 - It is highly recommended to enable the **First Person Hands** option in the Figura's settings menu!
 
+# "Building" from Source
+If you want to directly use the player models in this repository without downloading the pre-built pack from the Releases page, shared script files must be installed to each model in the pack, via the following steps:
+
+1. Make sure Python 3.9 is installed (Other versions are not tested)
+2. Set the current directory to the `.scripts` directory and run `build.py`
+```sh
+cd ./.scripts
+python ./build.py
+```
+3. The Python script will automatically install the required scripts to each model
+ 
 # Attributions
 The character models and textures are originally made for [Touhou Little Maid](https://www.curseforge.com/minecraft/mc-mods/touhou-little-maid) mod, created by TartaricAcid.
 Assets from the mod are modified to be in this pack under [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
